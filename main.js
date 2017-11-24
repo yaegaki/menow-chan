@@ -94,7 +94,7 @@ function Eval(program) {
                 break;
             case 'rb':
                 if (getvalue(memory[ptr]) != 0) {
-                    if (callstack.lenght == 0) {
+                    if (callstack.length == 0) {
                         console.error("invalid rb");
                         return;
                     }
